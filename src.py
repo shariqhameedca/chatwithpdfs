@@ -66,4 +66,4 @@ def user_input(user_question, st):
         {"input_documents": docs, "question": user_question}, return_only_outputs=True
     )
 
-    st.write("Reply: ", response["output_text"])
+    st.write("AI Assistant 🤖: ", response["output_text"])
